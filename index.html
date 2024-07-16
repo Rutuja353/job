@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type ="text/css">
+    <title>Responsive job portal website</title>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <h2 class="navbar-logo"><a href="#">JobBoard</a></h2>
+    <div class="navbar-menu">
+        <a href="#jobs">Jobs</a>
+        <a href="#companies">Companies</a>
+        <a href="#blog">Blogs</a>
+        <a href="#">Sign In</a>
+    </div>
+    <div class ="menu-toggle">
+        <span class ="bar"></span>
+        <span class ="bar"></span>
+        <span class ="bar"></span>
+    </div>
+  </nav>
+  <header>
+    <h1 class ="header-title">
+        FIND YOUR <br><span>PERFECT JOB <br> </span>EASILY<br>
+    </h1>
+  </header> 
+  <div class="search-wrapper">
+    <div class="search-box">
+        <div class="search-card">
+            <input class="search-input" type="text" placeholder="job title or keywords">
+            <button class="search-button">Search</button>
+        </div>
+    </div>
+ </div> 
+ <div class="filter-box">
+    <div class="filter-dropdown">
+        <select class="filter-select" id="job-level" name="job-level">
+            <option>Joblevel</option>
+            <option>Entry</option>
+            <option>Mid-Senior</option>
+            <option>Director</option>
+        </select>
+        <select class="filter-select" id="job-Function" name="job-Function">
+            <option>job-Function</option>
+            <option>IT</option>
+            <option>Management</option>
+            <option>Education</option>
+        </select>
+        <select class="filter-select" id="employment" name="employment">
+            <option>Employment-Type</option>
+            <option>Internship</option>
+            <option>Part-Time</option>
+            <option>Full-Time</option>
+        </select>
+        <select class="filter-select" id="location" name="location">
+            <option>Locations</option>
+            <option>Remote</option>
+            <option>UK</option>
+            <option>US</option>
+        </select>
+        <select class="filter-select" id="Education" name="Education">
+            <option>Education</option>
+            <option>Bachleour's degree</option>
+            <option>High School</option>
+            <option>Master's degree</option>
+        </select>
+    </div>
+    <div class="filter-choosen">
+        <div class="choosen-card">
+            Remote<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="choosen-card">
+            Financial Tech<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="choosen-card">
+            Full-Time<i class="fas fa-times-circle"></i>
+        </div>
+        <div class="choosen-card">
+            Entry-Level<i class="fas fa-times-circle"></i>
+        </div>
+
+    </div>
+</div>
+<section class="job-list" id="jobs">
+    <div class="job-card">
+        <div class="job-name">
+            <img class="job-profile"  src="./images/amazon6707.jpg">
+            <div class="job-detail">
+                <h4>Amazon</h4>
+                <h3>Data Analyst</h3>
+                <p>Askilled data analyst who has knowledge of python and alogrithm</p>
+            </div>
+        </div>
+        <div class="job-label">
+            <a class="label-a" href="#">Html</a>
+            <a class="label-b" href="#">CSS</a>
+            <a class="label-c" href="#">javascript</a>
+        </div>
+        <div class="job-posted">
+            Posted 2 min ago
+        </div>
+    </div>
+
+    <div class="job-card">
+        <div class="job-name">
+            <img class="job-profile"  src="./images/google.jpg">
+            <div class="job-detail">
+                <h4>Google</h4>
+                <h3>Data Analyst</h3>
+                <p>Askilled data analyst who has knowledge of python and alogrithm</p>
+            </div>
+        </div>
+        <div class="job-label">
+            <a class="label-a" href="#">Html</a>
+            <a class="label-b" href="#">CSS</a>
+            <a class="label-c" href="#">javascript</a>
+        </div>
+        <div class="job-posted">
+            Posted 2 min ago
+        </div>
+    </div>
+
+    <div class="job-card">
+        <div class="job-name">
+            <img class="job-profile"  src="./images/insta.jpg">
+            <div class="job-detail">
+                <h4>Instagram</h4>
+                <h3>Software Engineer</h3>
+                <p>A skilled  who has knowledge of python and alogrithm</p>
+            </div>
+        </div>
+        <div class="job-label">
+            <a class="label-a" href="#">Html</a>
+            <a class="label-b" href="#">CSS</a>
+            <a class="label-c" href="#">javascript</a>
+        </div>
+        <div class="job-posted">
+            Posted 1 hour ago
+        </div>
+    </div>
+    <div class="job-card">
+        <div class="job-name">
+            <img class="job-profile"  src="./images/you.jpg">
+            <div class="job-detail">
+                <h4>Youtube</h4>
+                <h3>Data Analyst</h3>
+                <p>Askilled data analyst who has knowledge of python and alogrithm</p>
+            </div>
+        </div>
+        <div class="job-label">
+            <a class="label-a" href="#">Html</a>
+            <a class="label-b" href="#">CSS</a>
+            <a class="label-c" href="#">javascript</a>
+        </div>
+        <div class="job-posted">
+            Posted 5 hours ago
+        </div>
+    </div>
+    <button class="job-more">More-list </button>
+</section>
+<section class="join">
+    <div class="join-button">
+        <h1 class="section-title">LET START YOUR NEW JOB WITH US</h1>
+        <p>the job with us</p>
+    </div>
+    <button class="join-button">Join-Now</button>
+</section>
+<section class="featured" id="companies">
+    <h1 class="section-title">Featured Company</h1>
+    <p>these is an featured company</p>
+    <div class="featured-wrapper">
+        <div class="featured-card">
+            <img class="featured-image" src="./images/amazon6707.jpg">
+            <p>Amazon</p>
+            <button class="featured-button">View Jobs</button>
+        </div>
+        <div class="featured-card">
+            <img class="featured-image" src="./images/google.jpg">
+            <p>Google</p>
+            <button class="featured-button">View Jobs</button>
+        </div>
+        <div class="featured-card">
+            <img class="featured-image" src="./images/apple.jpg">
+            <p>Apple</p>
+            <button class="featured-button">View Jobs</button>
+        </div>
+        <div class="featured-card">
+            <img class="featured-image" src="./images/facebook.jpg">
+            <p>Facebook</p>
+            <button class="featured-button">View Jobs</button>
+        </div>
+        <div class="featured-card">
+            <img class="featured-image" src="./images/insta.jpg">
+            <p>Instagram</p>
+            <button class="featured-button">View Jobs</button>
+        </div>
+        <div class="featured-card">
+            <img class="featured-image" src="./images/you.jpg">
+            <p>Youtube</p>
+            <button class="featured-button">View Jobs</button>
+        </div>
+    </div>
+<section>
+    <!--Footer-->
+<footer>
+    <div class="footer-wrapper">
+        <h3>JOBBOARD</h3>
+        <div class="social-media">
+            <a href="#"><i class ="fab fa-facebook-f"></i></a>
+            <a href="#"><i class ="fab fa-twitter"></i></a>
+            <a href="#"><i class ="fab fa-linkedin"></i></a>
+            <a href="#"><i class ="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <h4>Explore</h4>
+        <a href ="#">Top Compaines</a>
+        <a href ="#">Terms of Services</a>
+        <a href ="#">Podcast</a>
+        <a href ="#">Careers</a>
+    </div>
+    <div class="footer-wrapper">
+        <h4>About</h4>
+        <a href ="#">FAQ</a>
+        <a href ="#">Get Inspired</a>
+        <a href ="#">Blog</a>
+   </div>
+   <div class="footer-wrapper">
+    <h4>Support</h4>
+    <a href="#">Customer Services</a>
+    <a href ="#">Patnership</a>
+    <a href ="#">Trust and Safety</a>
+    </div>
+</footer>
+</section>
+</body>
+</html>
